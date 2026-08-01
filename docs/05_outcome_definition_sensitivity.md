@@ -4,7 +4,7 @@
 
 ## The three rules
 
-All three are computed on the same locked, blind-coded data by `analysis/study1_analysis.R` (Section 5), with the same interval and test machinery as the frozen primary analysis.
+All three are computed on the same locked, metadata-blind-coded data by `analysis/study1_analysis.R` (Section 5), with the same interval and test machinery as the frozen primary analysis. The visible response format could nevertheless reveal the likely condition.
 
 **Rule A — strict committed correct (prespecified primary).** One usable final answer, clearly committing to the father solution, not ambiguous, not contradictory, not presented as a mere possibility. This is the rule the study froze before data collection.
 

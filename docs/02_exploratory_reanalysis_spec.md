@@ -8,7 +8,7 @@
 
 ## 1. What is defensible about these analyses, and what is not
 
-In favour: the diagnostic codes (`identifies_nurse_as_samis_father_human`, `answer_contradictory_human`, `unresolved_possibility_human`, `answer_ambiguous_human`) were part of the prespecified human-verification protocol and were coded blind to condition, so the *measurements* are clean even though the *contrasts* are post hoc. Against: outcome selection after results, one item, one model configuration, overlapping non-exclusive codes, and a condition-specific repair intervention (all 27 truncation repairs in the formalised arm). Every table produced under this spec repeats this paragraph in condensed form as a footnote.
+In favour: the diagnostic codes (`identifies_nurse_as_samis_father_human`, `answer_contradictory_human`, `unresolved_possibility_human`, `answer_ambiguous_human`) were part of the prespecified human-verification protocol and were coded without condition metadata or response IDs, so those identifiers could not guide the judgments even though the *contrasts* are post hoc. The visible formal template could still reveal the likely condition. Against: incomplete condition masking, outcome selection after results, one item, one model configuration, overlapping non-exclusive codes, and a condition-specific repair intervention (all 27 truncation repairs in the formalised arm). Every table produced under this spec repeats this paragraph in condensed form as a footnote.
 
 ## 2. Closed exploratory contrast family (fixed before running)
 
