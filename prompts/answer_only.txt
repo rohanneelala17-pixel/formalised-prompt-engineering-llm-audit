@@ -1,0 +1,11 @@
+RIDDLE:
+
+Nadia, a secondary-school teacher, and her wife Elena have one son, Sami. Elena works as a structural engineer. Both Elena and Nadia are in full time employment and do not have any other jobs. During an earthquake, she is killed while travelling with Sami, who survives and is taken to hospital. When the neonatal nurse arrives, they look at Sami and say: “The engineer who died was my son’s mother. This patient is my son.” How is this possible?
+
+QUESTION:
+
+What is the answer to this riddle?
+
+Give your answer in exactly the following format:
+
+FINAL ANSWER: [your answer]

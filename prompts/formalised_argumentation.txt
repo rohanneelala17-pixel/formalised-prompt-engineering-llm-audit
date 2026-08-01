@@ -1,0 +1,78 @@
+RIDDLE:
+
+Nadia, a secondary-school teacher, and her wife Elena have one son, Sami. Elena works as a structural engineer. Both Elena and Nadia are in full time employment and do not have any other jobs. During an earthquake, she is killed while travelling with Sami, who survives and is taken to hospital. When the neonatal nurse arrives, they look at Sami and say: “The engineer who died was my son’s mother. This patient is my son.” How is this possible?
+
+QUESTION:
+
+What is the answer to this riddle?
+
+Before giving your final answer, construct a formalised argument.
+
+1. State the proposed conclusion.
+
+2. List every premise separately. Label the premises P1, P2, P3, and so forth.
+
+3. Give an individual justification for every premise. Each premise must include all three fields below.
+
+EVIDENTIAL BASIS:
+Classify the premise as supported by:
+
+- information explicitly stated in the riddle;
+- ordinary background knowledge; or
+- an additional assumption.
+
+SUPPORTING EVIDENCE:
+Identify the exact information from the riddle or the specific item of ordinary background knowledge supporting the premise. If the premise depends on an additional assumption, identify this assumption explicitly.
+
+JUSTIFICATION:
+Explain why the identified evidence supports this particular premise. A source classification by itself does not count as a justification.
+
+4. State every important inference connecting the premises to the proposed conclusion.
+
+5. For every important inference, provide both fields below.
+
+CLASSIFICATION:
+Classify the inference as:
+
+- deductive entailment;
+- defeasible support; or
+- unsupported.
+
+JUSTIFICATION:
+Explain whether the conclusion must follow, probably follows, or lacks adequate support when the listed premises are accepted.
+
+6. Consider whether an alternative answer remains compatible with the available evidence. Explain which premise or inference distinguishes the proposed answer from the alternative.
+
+7. Give your response in exactly the following format:
+
+FORMALISED ARGUMENT:
+
+CONCLUSION:
+[proposed conclusion]
+
+PREMISES:
+
+P1: [premise]
+EVIDENTIAL BASIS: [explicitly stated / ordinary background knowledge / additional assumption]
+SUPPORTING EVIDENCE: [specific evidence]
+JUSTIFICATION: [why the evidence supports P1]
+
+P2: [premise]
+EVIDENTIAL BASIS: [explicitly stated / ordinary background knowledge / additional assumption]
+SUPPORTING EVIDENCE: [specific evidence]
+JUSTIFICATION: [why the evidence supports P2]
+
+[Repeat the same structure for every additional premise.]
+
+INFERENCES:
+
+I1: [premise or premises] therefore [intermediate or final conclusion]
+CLASSIFICATION: [deductive entailment / defeasible support / unsupported]
+JUSTIFICATION: [why this classification applies]
+
+[Repeat the same structure for every important inference.]
+
+ALTERNATIVE ANSWER CHECK:
+[alternative answer and assessment]
+
+FINAL ANSWER: [your answer]
