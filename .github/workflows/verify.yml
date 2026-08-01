@@ -1,0 +1,37 @@
+name: Verify public research artifacts
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - name: Install locked Python dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Verify hashes, row linkage, and frozen counts
+        run: python analysis/verify_repository.py
+      - name: Reproduce exploratory diagnostic report
+        run: >-
+          python analysis/exploratory_diagnostics.py
+          --dataset data/responses_with_locked_human_verification_public.csv
+          --out results/exploratory_diagnostics.json
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.6.1"
+      - uses: r-lib/actions/setup-renv@v2
+      - name: Run the full R analysis
+        run: Rscript --vanilla analysis/run_study1_locked.R data/responses_with_locked_human_verification_public.csv
+      - name: Run dependency-free linear probability models
+        run: Rscript --vanilla analysis/linear_probability_models.R
+      - name: Recheck frozen artifacts after reproduction
+        run: python analysis/verify_repository.py
