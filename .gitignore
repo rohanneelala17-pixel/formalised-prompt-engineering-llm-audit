@@ -1,0 +1,17 @@
+# NEVER commit private experiment artifacts.
+# The blinded-review linkage and the private gold answer must stay off GitHub:
+# publishing them would compromise any future blinded coding on this dataset.
+**/private_accuracy_review_linkage.csv
+**/private_gold_answer.csv
+private/
+*.env
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.r-library/
+Rplots.pdf
+data/synthetic_locked.csv
