@@ -1,0 +1,102 @@
+{
+  "condition_totals": {
+    "answer_only": 288,
+    "formalised_argumentation": 288
+  },
+  "dataset": "data\\sami_father_reasoning_v1\\processed\\responses_with_locked_human_verification.csv",
+  "equivalence": {
+    "primary_margin_10pp": false,
+    "secondary_margin_5pp": false
+  },
+  "fixed_margin_exact_tests": {
+    "directional_formal_greater_p": 0.8667499863064138,
+    "fisher_exact_two_sided_p": 0.3471387957933395,
+    "randomisation_two_sided_p": 0.3471387957933395
+  },
+  "formal_minus_answer_only_risk_difference": -0.04166666666666663,
+  "human_diagnostic_code_counts": {
+    "answer_only": {
+      "answer_ambiguous_human": {
+        "0": 287,
+        "1": 1
+      },
+      "answer_contradictory_human": {
+        "0": 184,
+        "1": 104
+      },
+      "identifies_nurse_as_samis_father_human": {
+        "0": 104,
+        "1": 184
+      },
+      "requires_adjudication_human": {
+        "0": 288
+      },
+      "unresolved_possibility_human": {
+        "0": 286,
+        "1": 2
+      }
+    },
+    "formalised_argumentation": {
+      "answer_ambiguous_human": {
+        "0": 260,
+        "1": 28
+      },
+      "answer_contradictory_human": {
+        "0": 216,
+        "1": 72
+      },
+      "identifies_nurse_as_samis_father_human": {
+        "0": 74,
+        "1": 214
+      },
+      "requires_adjudication_human": {
+        "0": 288
+      },
+      "unresolved_possibility_human": {
+        "0": 239,
+        "1": 49
+      }
+    }
+  },
+  "human_verified_correct": {
+    "answer_only": 182,
+    "formalised_argumentation": 170
+  },
+  "human_verified_correct_rates": {
+    "answer_only": 0.6319444444444444,
+    "formalised_argumentation": 0.5902777777777778
+  },
+  "newcombe_90_ci": [
+    -0.1078889383931174,
+    0.02507560018719393
+  ],
+  "newcombe_95_ci": [
+    -0.12037924843801674,
+    0.03778144532552466
+  ],
+  "paired_sensitivity": {
+    "answer_only_correct": 72,
+    "both_correct": 110,
+    "both_incorrect": 46,
+    "formal_only_correct": 60,
+    "one_sided_formal_greater_p": 0.8711194560783728,
+    "two_sided_p": 0.33838023893982416
+  },
+  "relative_risk": 0.9340659340659341,
+  "relative_risk_95_ci": [
+    0.8197994421238647,
+    1.064259286298272
+  ],
+  "repair_sensitivity": {
+    "correct_rates": {
+      "answer_only": 0.6168582375478927,
+      "formalised_argumentation": 0.5977011494252874
+    },
+    "excluded_pairs": 27,
+    "formal_minus_answer_only_risk_difference": -0.019157088122605304,
+    "remaining_pairs": 261
+  },
+  "rows": 576,
+  "unique_pair_ids": 288,
+  "unique_response_ids": 576
+}
