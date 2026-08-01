@@ -1,0 +1,24 @@
+{
+  "manifest_version": "1-public",
+  "experiment_name": "sami_father_reasoning",
+  "freeze_timestamp_utc": "2026-07-25T13:18:47.804945+00:00",
+  "collection_start_timestamp_utc": "2026-07-25T13:18:47.804963+00:00",
+  "publication_status": "retrospectively published local freeze record; not an external preregistration",
+  "original_manifest_sha256": "67ca1d08b3c5108ba77b9976fee950d5da6048a9cca1a52deb0943091d57ce7b",
+  "full_schedule_sha256": "316c896c9125e6cd4d974931af8efe2d700e5812be74dcf735b1ce5ab6c8aefc",
+  "prompt_template_hashes": {
+    "answer_only": "25bb401fb26940d0dbc0fc959303ecf809d38eacce9688f22712413dab3a3b3d",
+    "formalised_argumentation": "503efed385205feccf5af46b6db84cc3d25592561ffef71445773e0033b297b4"
+  },
+  "configuration_sha256": "7c1723b14a1a1703692e11dfb24da1a8be6b07511d32496efbdbd5bbd30f244f",
+  "analysis_plan_sha256": "c79f085943fba11028a355da0a37b12b10b62859d214dc244fae0f9c2cb2271b",
+  "human_verification_protocol_sha256": "82a4c764f56963a2ea55e95c1176080857ee93a57d29de865c7a3e33740ab9cd",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "maximum_output_tokens": 2000,
+  "primary_outcome": "auditable_correct_answer",
+  "primary_equivalence_margin": 0.1,
+  "secondary_equivalence_margin": 0.05,
+  "schedule_seed": 2026072501,
+  "blinded_review_seed": 2026072502
+}
