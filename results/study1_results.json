@@ -1,0 +1,174 @@
+{
+  "run": ["LOCKED DATASET"],
+  "dataset": ["data\\responses_with_locked_human_verification_public.csv"],
+  "generated_by": ["analysis/study1_analysis.R"],
+  "note": ["Primary analysis prespecified/confirmatory. Diagnostic contrasts and decomposition EXPLORATORY (selected after observing the primary result). Decomposition conditions on post-treatment variables: descriptive only."],
+  "primary": [
+    {
+      "contrast": "Strict committed correct (PRIMARY)",
+      "family": "confirmatory",
+      "formalised": 170,
+      "answer_only": 182,
+      "rd": -0.041666666667,
+      "lo": -0.12037924844,
+      "hi": 0.037781445326,
+      "odds_ratio": 0.83933560977,
+      "fisher_p": 0.34713879579,
+      "_row": "rd"
+    }
+  ],
+  "exploratory_diagnostics": [
+    {
+      "contrast": "Identifies father solution (recognition)",
+      "family": "exploratory",
+      "formalised": 214,
+      "answer_only": 184,
+      "rd": 0.10416666667,
+      "lo": 0.028689069499,
+      "hi": 0.17803974162,
+      "odds_ratio": 1.6331091996,
+      "fisher_p": 0.0088275873106,
+      "holm_p": 0.0099432152041,
+      "_row": "rd...1"
+    },
+    {
+      "contrast": "Contains contradiction",
+      "family": "exploratory",
+      "formalised": 72,
+      "answer_only": 104,
+      "rd": -0.11111111111,
+      "lo": -0.18464403805,
+      "hi": -0.035883180537,
+      "odds_ratio": 0.59030162744,
+      "fisher_p": 0.0049716076021,
+      "holm_p": 0.0099432152041,
+      "_row": "rd...2"
+    },
+    {
+      "contrast": "Presents answer as unresolved (hedging)",
+      "family": "exploratory",
+      "formalised": 49,
+      "answer_only": 2,
+      "rd": 0.16319444444,
+      "lo": 0.12024588402,
+      "hi": 0.21113003156,
+      "odds_ratio": 29.2062257917,
+      "fisher_p": 1.497714472e-13,
+      "holm_p": 5.9908578879e-13,
+      "_row": "rd...3"
+    },
+    {
+      "contrast": "Coded ambiguous",
+      "family": "exploratory",
+      "formalised": 28,
+      "answer_only": 1,
+      "rd": 0.09375,
+      "lo": 0.060575719108,
+      "hi": 0.13355523163,
+      "odds_ratio": 30.7978617908,
+      "fisher_p": 5.8761563536e-08,
+      "holm_p": 1.7628469061e-07,
+      "_row": "rd...4"
+    }
+  ],
+  "decomposition": [
+    {
+      "prompt_condition": "answer_only",
+      "identified": 184,
+      "identified_and_correct": 182,
+      "correct_without_identification": 0,
+      "commitment_rate": 0.98913043478
+    },
+    {
+      "prompt_condition": "formalised_argumentation",
+      "identified": 214,
+      "identified_and_correct": 170,
+      "correct_without_identification": 0,
+      "commitment_rate": 0.79439252336
+    }
+  ],
+  "waterfall_pp": [
+    {
+      "component": "Recognition gain",
+      "pp": 10.303442029
+    },
+    {
+      "component": "Commitment loss among recognisers",
+      "pp": -14.4701086957
+    },
+    {
+      "component": "Correct without recognition",
+      "pp": 0
+    }
+  ],
+  "logistic_models": [
+    {
+      "model": "Strict correct ~ condition (confirmatory, total causal effect)",
+      "or": 0.83907617806,
+      "lo": 0.59955777679,
+      "hi": 1.1731686163,
+      "p": 0.30523699631,
+      "_row": "Estimate...1"
+    },
+    {
+      "model": "Recognition ~ condition (exploratory, total causal effect)",
+      "or": 1.6345475911,
+      "lo": 1.1452047255,
+      "hi": 2.341837169,
+      "p": 0.0070338237991,
+      "_row": "Estimate...2"
+    },
+    {
+      "model": "Commitment ~ condition | recognisers (exploratory, DESCRIPTIVE: conditions on post-treatment variable)",
+      "or": 0.042457542459,
+      "lo": 0.0068616541941,
+      "hi": 0.1404240305,
+      "p": 1.5400859011e-05,
+      "_row": "Estimate...3"
+    }
+  ],
+  "outcome_definition_sensitivity": {
+    "note": ["Rule A is the frozen prespecified primary (confirmatory). Rules B and C are POST HOC alternative outcome definitions, reported as sensitivity of the conclusion to the success criterion. They must not be quoted as the primary result."],
+    "rules": [
+      {
+        "contrast": "Rule A - strict committed correct\n(prespecified primary)",
+        "family": "confirmatory",
+        "formalised": 170,
+        "answer_only": 182,
+        "rd": -0.041666666667,
+        "lo": -0.12037924844,
+        "hi": 0.037781445326,
+        "odds_ratio": 0.83933560977,
+        "fisher_p": 0.34713879579,
+        "rule": "A",
+        "_row": "rd"
+      },
+      {
+        "contrast": "Rule C - identifies solution, no ambiguity\nor contradiction; hedging allowed (post hoc)",
+        "family": "post hoc",
+        "formalised": 192,
+        "answer_only": 184,
+        "rd": 0.027777777778,
+        "lo": -0.049772658752,
+        "hi": 0.10486398949,
+        "odds_ratio": 1.130192354,
+        "fisher_p": 0.54017187106,
+        "rule": "C",
+        "_row": "rd1"
+      },
+      {
+        "contrast": "Rule B - identifies intended solution\nat all (post hoc)",
+        "family": "post hoc",
+        "formalised": 214,
+        "answer_only": 184,
+        "rd": 0.10416666667,
+        "lo": 0.028689069499,
+        "hi": 0.17803974162,
+        "odds_ratio": 1.6331091996,
+        "fisher_p": 0.0088275873106,
+        "rule": "B",
+        "_row": "rd2"
+      }
+    ]
+  }
+}

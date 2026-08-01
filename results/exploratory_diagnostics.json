@@ -1,0 +1,155 @@
+{
+  "note": "EXPLORATORY: contrasts selected after observing the primary result. Measurements were coded by one condition-blinded reviewer under a frozen protocol; the contrasts are post hoc. One item, one model configuration; 27 condition-specific truncation repairs in the formalised arm.",
+  "dataset_sha256": "f1f74c1877f5e79b576ed96233aec619ae26162e8a07def76556110f432c92d5",
+  "dataset_variant": "public release dataset",
+  "section2_contrasts": {
+    "recognition": {
+      "formalised": "214/288",
+      "answer_only": "184/288",
+      "risk_difference": 0.10416666666666674,
+      "newcombe_95_ci": [
+        0.028689069498767636,
+        0.17803974161994973
+      ],
+      "odds_ratio": 1.6345475910693301,
+      "fisher_exact_two_sided_p": 0.008827587310561184,
+      "holm_adjusted_p": 0.009943215204134093
+    },
+    "contradictory": {
+      "formalised": "72/288",
+      "answer_only": "104/288",
+      "risk_difference": -0.1111111111111111,
+      "newcombe_95_ci": [
+        -0.18464403804589138,
+        -0.035883180536609466
+      ],
+      "odds_ratio": 0.5897435897435898,
+      "fisher_exact_two_sided_p": 0.004971607602067047,
+      "holm_adjusted_p": 0.009943215204134093
+    },
+    "unresolved_possibility": {
+      "formalised": "49/288",
+      "answer_only": "2/288",
+      "risk_difference": 0.16319444444444445,
+      "newcombe_95_ci": [
+        0.12024588402448536,
+        0.21113003156037463
+      ],
+      "odds_ratio": 29.317991631799163,
+      "fisher_exact_two_sided_p": 1.4977144719627574e-13,
+      "holm_adjusted_p": 5.990857887851029e-13
+    },
+    "ambiguous": {
+      "formalised": "28/288",
+      "answer_only": "1/288",
+      "risk_difference": 0.09375,
+      "newcombe_95_ci": [
+        0.06057571910814247,
+        0.13355523163334157
+      ],
+      "odds_ratio": 30.907692307692308,
+      "fisher_exact_two_sided_p": 5.8761563535610256e-08,
+      "holm_adjusted_p": 1.7628469060683077e-07
+    }
+  },
+  "section3_decomposition": {
+    "answer_only": {
+      "identified": 184,
+      "identified_and_correct": 182,
+      "commitment_rate_among_recognisers": 0.9891304347826086,
+      "correct_without_identification": 0,
+      "identified_not_correct_breakdown": {
+        "unresolved_possibility": 2,
+        "ambiguous": 0,
+        "contradictory": 0,
+        "total": 2,
+        "note": "codes overlap; rows may carry more than one"
+      }
+    },
+    "formalised_argumentation": {
+      "identified": 214,
+      "identified_and_correct": 170,
+      "commitment_rate_among_recognisers": 0.794392523364486,
+      "correct_without_identification": 0,
+      "identified_not_correct_breakdown": {
+        "unresolved_possibility": 44,
+        "ambiguous": 22,
+        "contradictory": 0,
+        "total": 44,
+        "note": "codes overlap; rows may carry more than one"
+      }
+    },
+    "waterfall_pp": {
+      "recognition_component": 10.303442028985515,
+      "commitment_component": -14.470108695652172,
+      "non_recognition_correct_component": 0.0,
+      "note": "components sum to the primary risk difference (in pp); descriptive arithmetic only"
+    }
+  },
+  "section4_recognition_mcnemar": {
+    "formal_only_identified": 78,
+    "answer_only_only_identified": 48,
+    "exact_two_sided_p": 0.009503165032902208
+  },
+  "section4_repair_exclusion": {
+    "excluded_pairs": 27,
+    "remaining_pairs": 261,
+    "contrasts": {
+      "recognition": {
+        "formalised": "197/261",
+        "answer_only": "163/261",
+        "risk_difference": 0.13026819923371646,
+        "newcombe_95_ci": [
+          0.05094062507273295,
+          0.20738195920088295
+        ],
+        "odds_ratio": 1.8506518404907975,
+        "fisher_exact_two_sided_p": 0.001751395075919307,
+        "holm_adjusted_p": 0.002472091594029235
+      },
+      "contradictory": {
+        "formalised": "63/261",
+        "answer_only": "98/261",
+        "risk_difference": -0.13409961685823754,
+        "newcombe_95_ci": [
+          -0.21100923893522194,
+          -0.054923249162329726
+        ],
+        "odds_ratio": 0.5292207792207793,
+        "fisher_exact_two_sided_p": 0.0012360457970146176,
+        "holm_adjusted_p": 0.002472091594029235
+      },
+      "unresolved_possibility": {
+        "formalised": "44/261",
+        "answer_only": "2/261",
+        "risk_difference": 0.16091954022988506,
+        "newcombe_95_ci": [
+          0.11578683177740443,
+          0.21137835764758664
+        ],
+        "odds_ratio": 26.258064516129032,
+        "fisher_exact_two_sided_p": 5.019089740736672e-12,
+        "holm_adjusted_p": 2.007635896294669e-11
+      },
+      "ambiguous": {
+        "formalised": "23/261",
+        "answer_only": "1/261",
+        "risk_difference": 0.08429118773946359,
+        "newcombe_95_ci": [
+          0.05066432016842782,
+          0.1250466896137499
+        ],
+        "odds_ratio": 25.126050420168067,
+        "fisher_exact_two_sided_p": 1.8717133664868424e-06,
+        "holm_adjusted_p": 5.615140099460527e-06
+      }
+    },
+    "diagnostics_among_repaired_formal_rows": {
+      "recognition": 17,
+      "contradictory": 9,
+      "unresolved_possibility": 5,
+      "ambiguous": 5
+    },
+    "repaired_formal_rows": 27
+  }
+}
