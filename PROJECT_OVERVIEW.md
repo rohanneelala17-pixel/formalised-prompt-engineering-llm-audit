@@ -4,7 +4,9 @@
 
 This solo research project asks whether philosophy-inspired argument structure changes identifiable failures in LLM responses. The prompt requires the model to state a conclusion, identify the basis for each premise, classify its inferences, and assess alternatives before giving a final answer. Its relevance to Education AI Governance is a hypothesis for later study: formal critical-thinking instruction may give students a practical method for constructing and examining prompts rather than relying on generic advice to “check” AI outputs.
 
-The first experiment tested one model on one riddle. A locally frozen randomised schedule assigned 576 independent generations equally between an answer-only prompt and a formalised-argumentation prompt. One reviewer was blinded to condition. The primary scoring rule and statistical plan were fixed locally before final collection and published retrospectively rather than independently preregistered.
+The project's argument is deliberately cumulative. The experiment demonstrates bounded causal changes in model-output behaviour. Those changes motivate, but do not prove, the educational hypothesis that formal critical-thinking education could help students construct and scrutinise AI-assisted reasoning more effectively.
+
+The first experiment tested one model on one riddle. A locally frozen randomised schedule assigned 576 independent generations equally between an answer-only prompt and a formalised-argumentation prompt. The reviewer worked with opaque identifiers and without condition metadata or response IDs, although the visible formal template could reveal the likely condition. The primary scoring rule and statistical plan were fixed locally before final collection and published retrospectively rather than independently preregistered.
 
 ## Confirmatory finding
 
@@ -48,7 +50,7 @@ A second design tests auditability directly. Human reviewers receive content-mat
 
 ## Repository contents
 
-The repository provides the public response dataset, exact prompts, frozen numerical results, reproducible R and Python analyses, design evidence, figures, and follow-up study designs. The [README](README.md) explains the complete methodology and defines the statistical terms used in the reports.
+The repository provides the public response dataset, exact prompts, frozen numerical results, reproducible R and Python analyses, design evidence, figures, and follow-up study designs. The [README](README.md) explains the complete methodology and defines the statistical terms used in the reports. The [literature and policy context](docs/06_literature_and_policy_context.md) explains how the model-output evidence relates to prompting research, critical-thinking education, AI literacy, and human oversight without treating those connections as tested outcomes.
 
 ## Author
 
